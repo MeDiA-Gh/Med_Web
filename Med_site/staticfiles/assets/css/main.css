@@ -74,7 +74,7 @@ a {
 }
 
 a:hover {
-  color: color-mix(in srgb, #65558F , transparent 25%);
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
 
@@ -295,13 +295,13 @@ h6 {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: var(--nav-changed-color);
+  color: var(--heading-color);
 }
 
 .header .cta-btn,
 .header .cta-btn:focus {
   color: var(--contrast-color);
-  background: #65558F;
+  background: var(--accent-color);
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -454,7 +454,7 @@ h6 {
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: var(--nav-changed-color);
+    color: var(--nav-dropdown-hover-color);
   }
 
   .navmenu .dropdown:hover>ul {
@@ -671,10 +671,6 @@ h6 {
 .footer .footer-links {
   margin-bottom: 30px;
 }
-/*changes made*/
-.footer .footer-links h4{
-  color: var(--background-color);
-}
 
 .footer .footer-links ul {
   list-style: none;
@@ -699,7 +695,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--accent-color), transparent 30%);
+  color: color-mix(in srgb, var(--background-color), transparent 30%);
   display: inline-block;
   line-height: 1;
 }
@@ -948,7 +944,6 @@ section,
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: var(--nav-changed-color);
 }
 
 .hero .welcome p {
@@ -962,7 +957,7 @@ section,
 
 .hero .content .why-box {
   color: var(--contrast-color);
-  background: var(--nav-changed-color);
+  background: var(--accent-color);
   padding: 30px;
   border-radius: 4px;
 }
@@ -1071,7 +1066,7 @@ section,
 --------------------------------------------------------------*/
 .stats i {
   color: var(--contrast-color);
-  background-color:#65558F;
+  background-color: var(--accent-color);
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   width: 54px;
   height: 54px;
@@ -1139,7 +1134,7 @@ section,
 }
 
 .services .service-item .icon i {
-  color:#65558F;
+  color: var(--contrast-color);
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -1236,7 +1231,7 @@ section,
 }
 
 .appointment .php-email-form button[type=submit] {
-  background: #65558F;
+  background: var(--accent-color);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1305,8 +1300,8 @@ section,
   }
 
   .departments .nav-link.active {
-    color: var(--contrast-color);
-    background: #65558F;
+    color: var(--accent-color);
+    background: var(--accent-color);
   }
 }
 
@@ -1501,14 +1496,14 @@ section,
 }
 
 .faq .faq-container .faq-active {
-  background-color: #65558F ;
+  background-color: var(--accent-color);
   border-color: var(--accent-color);
   color: var(--contrast-color);
 }
 
 .faq .faq-container .faq-active h3,
 .faq .faq-container .faq-active h3:hover {
-  color: var(--nav-changed-color);
+  color: var(--contrast-color);
 }
 
 .faq .faq-container .faq-active .faq-content {
@@ -1520,7 +1515,7 @@ section,
 
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);
-  color: var(--accent);
+  color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
@@ -1660,7 +1655,7 @@ section,
 
 .contact .info-item i {
   color: var(--contrast-color);
-  background:#65558F;
+  background: var(--accent-color);
   font-size: 20px;
   width: 44px;
   height: 44px;
@@ -1715,7 +1710,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: #65558F;
+  background: var(--accent-color);
   border: 0;
   padding: 10px 36px;
   transition: 0.4s;
