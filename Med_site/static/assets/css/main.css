@@ -87,7 +87,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: var(--botton-color);
   font-family: var(--heading-font);
 }
 
@@ -550,7 +550,7 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: var(--botton-color);
   }
 
   .navmenu .active i,
@@ -956,12 +956,13 @@ section,
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: var(--botton-color);
+  color: var(--nav-changed-color);
 }
 
 .hero .welcome p {
   font-size: 24px;
   margin: 0;
+  color: #cd6bf0;
 }
 
 .hero .content {
@@ -1051,7 +1052,7 @@ section,
 .about .content ul i {
   flex-shrink: 0;
   font-size: 48px;
-  color: var(--accent-color);
+  color: var(--botton-color);
   margin-right: 20px;
 }
 
@@ -1079,7 +1080,7 @@ section,
 --------------------------------------------------------------*/
 .stats i {
   color: var(--contrast-color);
-  background-color:var(--nav-changed-color);
+  background-color:var(--botton-color);
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   width: 54px;
   height: 54px;
@@ -1147,7 +1148,7 @@ section,
 }
 
 .services .service-item .icon i {
-  color:#65558F;
+  color:var(--contrast-color);
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -1159,7 +1160,7 @@ section,
   top: -8px;
   height: 100%;
   width: 100%;
-  background: color-mix(in srgb, var(--accent-color), transparent 80%);
+  background: color-mix(in srgb, var(--botton-color), transparent 80%);
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
@@ -1187,7 +1188,7 @@ section,
 }
 
 .services .service-item:hover .icon i {
-  color: var(--accent-color);
+  color: var(--botton-color);
 }
 
 .services .service-item:hover .icon::before {
@@ -1668,7 +1669,7 @@ section,
 
 .contact .info-item i {
   color: var(--contrast-color);
-  background:var(--nav-changed-color);
+  background:var(--botton-color);
   font-size: 20px;
   width: 44px;
   height: 44px;
